@@ -3,7 +3,7 @@
 'use strict';
 
 const meow = require('meow');
-const install = require('.');
+const { install } = require('.');
 
 const cli = meow(`
   Usage

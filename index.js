@@ -26,4 +26,4 @@ async function install({ username, password, host, descriptor }) {
     return response;
 }
 
-module.exports = install;
+module.exports.install = install;
