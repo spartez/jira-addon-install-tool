@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": "./cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/spartez/jira-addon-install-tool#readme",
   "devDependencies": {
-    "eslint-config-spartez": "^1.4.0"
+    "ava": "^0.18.2",
+    "eslint-config-spartez": "^1.4.0",
+    "nock": "^9.0.9"
   }
 }

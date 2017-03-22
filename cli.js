@@ -16,10 +16,10 @@ const cli = meow(`
     --descriptor, -d    atlassian-connect.json URL
 
   Example
-    $ jira-addon-install-tool \
-        --host myjira.atlassian.net \
-        --username me \
-        --password pass \
+    $ jira-addon-install-tool \\
+        --host myjira.atlassian.net \\
+        --username me \\
+        --password pass \\
         --descriptor https://my.service/remoteapp/registration/atlassian-connect.json
 `, {
     alias: {
@@ -30,4 +30,6 @@ const cli = meow(`
     }
 });
 
-install(cli.flags);
+install(cli.flags).then(response => {
+    console.log(response.body);
+});

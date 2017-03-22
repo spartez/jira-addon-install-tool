@@ -14,7 +14,6 @@ async function getToken({ username, password, url }) {
 async function install({ username, password, host, descriptor }) {
     const url = `https://${host}/rest/plugins/1.0/`;
     const token = await getToken({ username, password, url });
-
     const response = await got(`${url}?token=${token}`, {
         auth: `${username}:${password}`,
         method: 'POST',
