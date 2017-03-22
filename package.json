@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Install an add-on using the UPM's REST API",
   "main": "index.js",
+  "bin": "./cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
