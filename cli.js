@@ -20,14 +20,14 @@ const cli = meow(`
         --host myjira.atlassian.net \
         --username me \
         --password pass \
-        --descriptor https://my.service/remoteapp/registration/atlassian-connect.json 
+        --descriptor https://my.service/remoteapp/registration/atlassian-connect.json
 `, {
-  alias: {
-    h: 'host',
-    u: 'username',
-    p: 'password',
-    d: 'descriptor'
-  }
+    alias: {
+        h: 'host',
+        u: 'username',
+        p: 'password',
+        d: 'descriptor'
+    }
 });
 
 install(cli.flags);
