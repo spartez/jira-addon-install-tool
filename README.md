@@ -34,9 +34,12 @@ const { install } = require('jira-addon-install-tool');
 install({
     username: 'admin',
     password: 'admin',
-    host: 'mujira.atlassian.net',
+    host: 'myjira.atlassian.net',
     descriptor: 'https://my.service/remoteapp/registration/atlassian-connect.json'
 }).then(response => {
     console.log(response.status);
 });
 ```
+
+## License
+MIT
