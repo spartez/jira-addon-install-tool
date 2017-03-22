@@ -1,0 +1,25 @@
+{
+  "name": "jira-addon-install-tool",
+  "version": "1.0.0",
+  "description": "Install an add-on using the UPM's REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msn0/jira-addon-install-tool.git"
+  },
+  "keywords": [
+    "jira",
+    "addon",
+    "upm",
+    "rest"
+  ],
+  "author": "Michał Jezierski <ambinanitelo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msn0/jira-addon-install-tool/issues"
+  },
+  "homepage": "https://github.com/msn0/jira-addon-install-tool#readme"
+}
