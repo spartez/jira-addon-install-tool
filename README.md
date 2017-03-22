@@ -1,4 +1,4 @@
-# jira-addon-install-tool
+# jira-addon-install-tool [![Build Status](https://travis-ci.org/spartez/jira-addon-install-tool.svg?branch=master)](http://travis-ci.org/spartez/jira-addon-install-tool)
 
 > Install JIRA add-on using the UPM's REST API
 
