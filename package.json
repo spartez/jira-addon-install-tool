@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/msn0/jira-addon-install-tool.git"
+    "url": "git+https://github.com/spartez/jira-addon-install-tool.git"
   },
   "keywords": [
     "jira",
@@ -20,9 +20,9 @@
   "author": "Michał Jezierski <ambinanitelo@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/msn0/jira-addon-install-tool/issues"
+    "url": "https://github.com/spartez/jira-addon-install-tool/issues"
   },
-  "homepage": "https://github.com/msn0/jira-addon-install-tool#readme",
+  "homepage": "https://github.com/spartez/jira-addon-install-tool#readme",
   "devDependencies": {
     "eslint-config-spartez": "^1.4.0"
   }
