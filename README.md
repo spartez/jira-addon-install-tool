@@ -43,4 +43,7 @@ install({
 ```
 
 ## License
-MIT
+
+The MIT License
+
+Copyright :copyright: 2016 Spartez, https://spartez.com
