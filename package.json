@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/msn0/jira-addon-install-tool/issues"
   },
-  "homepage": "https://github.com/msn0/jira-addon-install-tool#readme"
+  "homepage": "https://github.com/msn0/jira-addon-install-tool#readme",
+  "devDependencies": {
+    "eslint-config-spartez": "^1.4.0"
+  }
 }
