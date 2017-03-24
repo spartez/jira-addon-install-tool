@@ -1,6 +1,6 @@
 {
   "name": "jira-addon-install-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Install an add-on using the UPM's REST API",
   "main": "index.js",
   "bin": "./cli.js",
@@ -27,5 +27,9 @@
     "ava": "^0.18.2",
     "eslint-config-spartez": "^1.4.0",
     "nock": "^9.0.9"
+  },
+  "dependencies": {
+    "got": "^6.7.1",
+    "meow": "^3.7.0"
   }
 }
