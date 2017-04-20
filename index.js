@@ -1,5 +1,3 @@
-'use strict';
-
 const got = require('got');
 
 async function getToken({ username, password, url }) {
